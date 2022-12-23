@@ -21,10 +21,8 @@ def duplicate(num):
     new = []
 
     for i in range(len(num)):
-        for j in range(len(num)):
-            if num[i] != num[j]:  # Comparing each element
-                if num[i] not in new:
-                    new.append(num[i])
+         if num[i] not in new:
+            new.append(num[i])
     return new
 
 
